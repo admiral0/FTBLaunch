@@ -247,6 +247,7 @@ public class DownloadUtils extends Thread {
 	@Override
 	public void run() {
 		downloadServers.put("Automatic", "www.creeperrepo.net");
+        downloadServers.put("admiral0", "admiral0.it");
 		BufferedReader in = null;
 		try {
 			in = new BufferedReader(new InputStreamReader(new URL("http://www.creeperrepo.net/mirrors").openStream()));
